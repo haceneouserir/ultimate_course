@@ -1,2 +1,20 @@
 .header
   i.fa.fa-exchange.fa-lg.toggle-sidebar
+  .dropdown.notifications-container
+    i.fa.fa-bell.fa-lg.toggle-notifications#notifications(data-bs-toggle='dropdown' aria-expanded='false')
+    .dropdown-menu(aria-labelledby='notifications')
+      .notifi-head
+        | Notifications
+        span 50
+      .notifi-content
+        ul.list-unstyled
+          li
+            i.fa.fa-envelope.fa-lg
+            | Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          li
+            i.fa.fa-dollar-sign.fa-lg
+            | Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          li
+            i.fa.fa-thumbs-up.fa-lg
+            | Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      .notifi-foot.text-center: a(href="#") View all notifications
