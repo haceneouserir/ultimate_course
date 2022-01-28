@@ -1,1 +1,0 @@
-const map = new Map();

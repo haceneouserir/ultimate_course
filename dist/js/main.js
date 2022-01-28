@@ -19,6 +19,11 @@ $(function() {
       closeFullscreen();
     }
   });
+  // Toggle settings bar
+  $('.toggle-settings').on('click', function() {
+    $(this).find('i').toggleClass('fa-spin');
+    $(this).parent().toggleClass('hide-settings');
+  });
 });
 
 /* Get the documentElement (<html>) to display the page in fullscreen */
@@ -45,5 +50,3 @@ function closeFullscreen() {
     document.msExitFullscreen();
   }
 }
-const map = new Map();
-const mySet = new Set();
