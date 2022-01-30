@@ -24,5 +24,8 @@ $themes: (
     .header .header-icon:hover {
       color: $color;
     }
+    .page .sidebar .links-area>li>a.active:before {
+      border-color: $color;
+    }
   }
 }
