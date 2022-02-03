@@ -5,6 +5,17 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  &.open {
+    font-family: 'Open Sans', sans-serif;
+  }
+  &.public {
+    font-family: 'Public Sans', sans-serif;
+  }
+  &.roboto {
+    font-family: 'Roboto', sans-serif;
+  &.source {
+    font-family: 'Source Serif 4', sans-serif;  }
+  }
 }
 
 .page {
